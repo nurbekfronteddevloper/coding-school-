@@ -1,0 +1,40 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: sans-serif;
+
+}
+#header{
+    background-color: #35424a;
+    border-bottom: 5px solid coral;
+}
+#header  h1 {
+    color: #fff;
+    padding: 15px 0px ;
+    display: inline-block;
+
+}
+#header .logo {
+    color: coral;
+}
+.navbar {
+    float: right;
+}
+.navbar li {
+    display: inline;
+}
+.navbar li  a {
+    text-decoration: none;
+    color: #fff;
+    padding: 25px   ;
+    display: inline-block;
+
+}
+.navbar li  a:hover{
+    color: coral;
+}
+.container{
+    width: 70%;
+    margin: auto;
+}
